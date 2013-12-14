@@ -1,11 +1,13 @@
-# Brunch with Chaplin
+# Brunch with Chaplin JS
 ![bwc-logo](http://brunch.io/images/svg/brunch.svg)
 
 This is HTML5 application, built with
 [Brunch](http://brunch.io) and [Chaplin](http://chaplinjs.org).
 
+[CoffeeScript version](https://github.com/paulmillr/brunch-with-chaplin) | [JavaScript version](https://github.com/paulmillr/brunch-with-chaplin-js)
+
 ## Installation
-Clone this repo manually with git or use `brunch new gh:paulmillr/brunch-with-chaplin`
+Clone this repo manually with git or use `brunch new gh:paulmillr/brunch-with-chaplin-js`
 
 ## Getting started
 * Install (if you don't have them):
@@ -44,7 +46,7 @@ except a few changes:
 
 ## Features
 * HTML5Boilerplate html & css are included.
-* CoffeeScript + Stylus + Handlebars as app languages
+* JavaScript + Stylus + Handlebars as app languages
 (you can change this to anything you want)
 * Backbone as main MVC/MVP library, Chaplin as meta-framework.
 * Support of IE8 and up.
