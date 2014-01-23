@@ -4,6 +4,6 @@ module.exports = Chaplin.Controller.extend({
   // Compositions persist stuff between controllers.
   // You may also persist models etc.
   beforeAction: function() {
-    return this.compose('site', SiteView);
+    return this.reuse('site', SiteView);
   }
 });

@@ -5,7 +5,7 @@ var HomePageView = require('views/home/home-page-view');
 module.exports = Controller.extend({
   beforeAction: function() {
     this.constructor.__super__.beforeAction.apply(this, arguments);
-    this.compose('header', HeaderView, {region: 'header'});
+    this.reuse('header', HeaderView, {region: 'header'});
   },
 
   index: function() {
