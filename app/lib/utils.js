@@ -1,6 +1,7 @@
 // Application-specific utilities
 // ------------------------------
 
+var Chaplin = require('chaplin');
 // Delegate to Chaplin’s utils module.
 var utils = Chaplin.utils.beget(Chaplin.utils);
 

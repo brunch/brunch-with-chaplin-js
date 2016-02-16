@@ -1,3 +1,4 @@
+var Chaplin = require('chaplin');
 module.exports = Chaplin.Model.extend({
   // Mixin a synchronization state machine.
   // initialize: function() {
