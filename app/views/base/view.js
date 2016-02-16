@@ -1,3 +1,4 @@
+var Chaplin = require('chaplin');
 require('lib/view-helper');
 
 module.exports = Chaplin.View.extend({

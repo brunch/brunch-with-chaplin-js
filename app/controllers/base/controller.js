@@ -1,3 +1,4 @@
+var Chaplin = require('chaplin');
 var SiteView = require('views/site-view');
 
 module.exports = Chaplin.Controller.extend({

@@ -1,3 +1,4 @@
+var Chaplin = require('chaplin');
 var View = require('./view');
 
 module.exports = Chaplin.CollectionView.extend({

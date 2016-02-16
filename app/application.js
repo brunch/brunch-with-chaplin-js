@@ -1,3 +1,5 @@
+var Chaplin = require('chaplin');
+
 // The application object.
 module.exports = Application = Chaplin.Application.extend({
   // start: function() {
